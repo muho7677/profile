@@ -1,0 +1,6 @@
+{
+  "name": "SEON CREATIVE STUDIO",
+  "description": "상상을 이야기로, 이야기를 작품으로. AI 크리에이터 선귀성의 공식 시네마틱 포트폴리오. AI 영상, 음악, 그림동화, 스토리텔링.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

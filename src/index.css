@@ -1,0 +1,49 @@
+@import "tailwindcss";
+
+@layer base {
+  :root {
+    --bg-main: #0B0B0D;
+    --bg-surface: #17171B;
+    --accent-gold: #C8A56A;
+    --text-primary: #F4F0E8;
+    --text-secondary: #A5A5AD;
+  }
+
+  html {
+    font-family: 'Noto Sans KR', 'Outfit', sans-serif;
+    background-color: #0B0B0D;
+    color: #F4F0E8;
+  }
+}
+
+.font-display {
+  font-family: 'Outfit', sans-serif;
+}
+
+.font-editorial {
+  font-family: 'Cormorant Garamond', serif;
+}
+
+/* Cinematic film grain subtle overlay */
+.cinematic-grain {
+  background-image: radial-gradient(rgba(200, 165, 106, 0.04) 1px, transparent 0);
+  background-size: 24px 24px;
+}
+
+/* Custom scrollbar */
+::-webkit-scrollbar {
+  width: 6px;
+}
+
+::-webkit-scrollbar-track {
+  background: #0B0B0D;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #26262c;
+  border-radius: 3px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #C8A56A;
+}
